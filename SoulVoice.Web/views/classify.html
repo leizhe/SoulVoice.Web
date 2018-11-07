@@ -1,0 +1,183 @@
+{{extend './layout.html'}}
+
+{{block 'title'}}{{title}}{{/block}}
+
+{{block 'script'}}
+<script src="/javascripts/jquery.min.js"></script>
+<script src="/javascripts/bootstrap.min.js"></script>
+<script src="/javascripts/jquery.cslider.js"></script>
+<script src="/javascripts/custom.js"></script>
+<script src="/javascripts/jquery.isotope.min.js"></script>
+<script src="/javascripts/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+{{/block}}
+
+{{block 'content'}}
+<header id="head" class="secondary">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <h1>节目分类</h1>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- container -->
+<section class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <section id="classify" class="page-section section appear clearfix">
+                <br />
+                <br />
+                <p>
+                    在这里您可以过滤不同的节目类别，找到您喜爱的音频节目
+                    <br />
+                    <br />
+                </p>
+
+
+                <div class="row">
+                    <nav id="filter" class="col-md-12 text-center">
+                        <ul>
+                            <li><a href="#" class="current btn-theme btn-small" data-filter="*">所有</a></li>
+                            <li><a href="#" class="btn-theme btn-small" data-filter=".webdesign">历史</a></li>
+                            <li><a href="#" class="btn-theme btn-small" data-filter=".photography">玄幻</a></li>
+                            <li><a href="#" class="btn-theme btn-small" data-filter=".print">恐怖</a></li>
+                        </ul>
+                    </nav>
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="portfolio-items isotopeWrapper clearfix" id="3">
+
+                                <article class="col-sm-4 isotopeItem webdesign">
+                                    <div class="portfolio-item">
+                                        <img src="assets/images/portfolio/img1.jpg" alt="" />
+                                        <div class="portfolio-desc align-center">
+                                            <div class="folio-info">
+                                                <a href="assets/images/portfolio/img1.jpg" class="fancybox">
+                                                    <h5>Project Title</h5>
+                                                    <i class="fa fa-link fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="col-sm-4 isotopeItem photography">
+                                    <div class="portfolio-item">
+                                        <img src="assets/images/portfolio/img2.jpg" alt="" />
+                                        <div class="portfolio-desc align-center">
+                                            <div class="folio-info">
+                                                <a href="assets/images/portfolio/img2.jpg" class="fancybox">
+                                                    <h5>Project Title</h5>
+                                                    <i class="fa fa-link fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+
+                                <article class="col-sm-4 isotopeItem photography">
+                                    <div class="portfolio-item">
+                                        <img src="assets/images/portfolio/img3.jpg" alt="" />
+                                        <div class="portfolio-desc align-center">
+                                            <div class="folio-info">
+                                                <a href="assets/images/portfolio/img3.jpg" class="fancybox">
+                                                    <h5>Project Title</h5>
+                                                    <i class="fa fa-link fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="col-sm-4 isotopeItem print">
+                                    <div class="portfolio-item">
+                                        <img src="assets/images/portfolio/img4.jpg" alt="" />
+                                        <div class="portfolio-desc align-center">
+                                            <div class="folio-info">
+                                                <a href="assets/images/portfolio/img4.jpg" class="fancybox">
+                                                    <h5>Project Title</h5>
+                                                    <i class="fa fa-link fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="col-sm-4 isotopeItem photography">
+                                    <div class="portfolio-item">
+                                        <img src="assets/images/portfolio/img5.jpg" alt="" />
+                                        <div class="portfolio-desc align-center">
+                                            <div class="folio-info">
+                                                <a href="assets/images/portfolio/img5.jpg" class="fancybox">
+                                                    <h5>Project Title</h5>
+                                                    <i class="fa fa-link fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="col-sm-4 isotopeItem webdesign">
+                                    <div class="portfolio-item">
+                                        <img src="assets/images/portfolio/img6.jpg" alt="" />
+                                        <div class="portfolio-desc align-center">
+                                            <div class="folio-info">
+                                                <a href="assets/images/portfolio/img6.jpg" class="fancybox">
+                                                    <h5>Project Title</h5>
+                                                    <i class="fa fa-link fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="col-sm-4 isotopeItem print">
+                                    <div class="portfolio-item">
+                                        <img src="assets/images/portfolio/img7.jpg" alt="" />
+                                        <div class="portfolio-desc align-center">
+                                            <div class="folio-info">
+                                                <a href="images/portfolio/img7.jpg" class="fancybox">
+                                                    <h5>Project Title</h5>
+                                                    <i class="fa fa-link fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="col-sm-4 isotopeItem photography">
+                                    <div class="portfolio-item">
+                                        <img src="assets/images/portfolio/img8.jpg" alt="" />
+                                        <div class="portfolio-desc align-center">
+                                            <div class="folio-info">
+                                                <a href="images/portfolio/img8.jpg" class="fancybox">
+                                                    <h5>Project Title</h5>
+                                                    <i class="fa fa-link fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="col-sm-4 isotopeItem print">
+                                    <div class="portfolio-item">
+                                        <img src="assets/images/portfolio/img9.jpg" alt="" />
+                                        <div class="portfolio-desc align-center">
+                                            <div class="folio-info">
+                                                <a href="images/portfolio/img9.jpg" class="fancybox">
+                                                    <h5>Project Title</h5>
+                                                    <i class="fa fa-link fa-2x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </section>
+        </div>
+    </div>
+
+</section>
+<!-- /container -->
+{{/block}}

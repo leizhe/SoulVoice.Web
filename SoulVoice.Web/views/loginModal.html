@@ -1,0 +1,38 @@
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×
+                </button>
+            </div>
+            <div class="modal-body">
+                <form name="sentMessage" id="contactForm"  novalidate>
+                    <div class="control-group">
+                        <div class="controls">
+                            <input type="text" class="form-control"
+                                   placeholder="邮箱/手机号" id="name" required
+                                   data-validation-required-message="请输入您的邮箱/手机号" />
+                            <p class="help-block"></p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="controls">
+                            <input type="password" class="form-control" placeholder="密码"
+                                   id="password" required
+                                   data-validation-required-message="请输入您的密码" />
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+            <div class="modal-footer">
+                <span class="pull-left">没有账号？点击<a href="classify.html">注册</a>
+                &nbsp;&nbsp;<a href="classify.html">忘记密码</a>
+                </span>
+                <button type="submit" class="btn btn-primary pull-right" data-dismiss="modal">
+                    登录
+                </button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
