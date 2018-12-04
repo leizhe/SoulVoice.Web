@@ -1,0 +1,20 @@
+{{extend './layout.html'}}
+
+{{block 'title'}}{{title}}{{/block}}
+
+{{block 'script'}}
+<script src="/javascripts/modernizr-latest.js"></script>
+<script src="/javascripts/jquery.cslider.js"></script>
+<script src="/javascripts/viewjs/index.js"></script>
+{{/block}}
+
+{{block 'content'}}
+<div>
+    <ul>
+        {{each list}}
+        <li>编号：{{$value.id}} &nbsp;&nbsp;姓名：{{$value.name}}</a></li>
+        {{/each}}
+    </ul>
+</div>
+
+{{/block}}
